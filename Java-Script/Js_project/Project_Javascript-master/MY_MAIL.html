@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style_mail.css" rel="stylesheet" >
+    <title>МОЯ ПОЧТА</title>
+</head>
+<body background = "HEROIC-Email-Security-Background.jpg" >
+<div class="new_mail_form" id="mail_id">
+
+    <div class="mail_button">
+        <button class="buttons" id="new_mail_btn">Новое сообщение</button>
+        <button class="buttons" id="Clear_mail_btn">Очистить все</button>
+        <button class="buttons" id="chat_mail_btn">Создать беседу</button>
+    </div>
+
+    <div  class="container_form" >
+        <div class="container_file" id="container_form_id" >
+            <div id="Name_container" style="float: left"><h3>Имя</h3> </div>
+
+            <textarea id="textarea_container"></textarea>
+        </div>
+        <hr size=1px width=100% align="left" color="black">
+    </div>
+    <div class="block_mail">
+        <div class="Title_block">
+            <h3 id="Name_mail">Name</h3>
+            <h5 id="Time_mail">uncheck time</h5>
+        </div>
+        <div class="btn_block_mail">
+            <button class="buttons" id="Reply_btn">Reply</button>
+            <button class="buttons" id="Exit_mail_btn">X</button>
+        </div>
+    </div>
+</div>
+    <div class="block_new_message" id="block_new_message_id">
+        <h3>Письмо  </h3>
+        <div class="Send_name">
+            <h5>Кому: <input type="text" id="name_new"><hr></h5>
+        </div>
+        <div class="text_new_message">
+            <textarea id="textarea_new"></textarea>
+        </div>
+        <button id="Send_button">Отправить</button>
+    </div>
+
+<script>
+    const New_mail_btn = document.getElementById("new_mail_btn");
+    const Send_new_message_btn = document.getElementById("Send_button");
+
+    New_mail_btn.addEventListener("click",()=>{
+        document.getElementById("block_new_message_id").style.display="block"
+        document.getElementById("mail_id").style.opacity= "0.3";
+
+    })
+
+    Send_new_message_btn.addEventListener("click",()=>{
+
+        const Name_new_message = document.getElementById("name_new")
+        const New_text_message = document.getElementById("textarea_new")
+        //Name_new_message.value = ""
+        //New_text_message.value = ""
+
+        alert(Name_new_message)
+        alert(New_text_message)
+
+        const container = document.getElementById("container_form_id");
+
+        const Name_container = document.createElement("div");
+        Name_container.className = "Name_input";
+        Name_container.innerHTML = Name_new_message.value;
+
+        const Textarea_container = document.createElement("div");
+        Textarea_container.className = "TextArea_input";
+        Textarea_container.innerHTML = New_text_message.value;
+
+
+        const main_div = document.createElement("div");
+        main_div.className = "main_class";
+        main_div.appendChild(Name_container);
+        main_div.appendChild(Textarea_container);
+
+        container.appendChild(main_div)
+
+        document.getElementById("mail_id").style.opacity= "1";
+        document.getElementById("block_new_message_id").style.display="none"
+    })
+
+
+
+</script>
+
+
+</body>
+</html>

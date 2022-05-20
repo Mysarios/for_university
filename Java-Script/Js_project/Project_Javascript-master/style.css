@@ -1,0 +1,72 @@
+body{
+    font-family: "Agency FB", sans-serif;
+    text-align: center;
+}
+input{
+    height: 45px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    border: 4px solid #E9F2FF;
+    border-radius: 15px;
+
+}
+.register_field{
+    margin-bottom: 13px;
+}
+.register_form .register_title{
+    margin-bottom: 13px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#register_form_id{
+    width: 400px;
+    height: 550px;
+    background-color: #fcfaff ;
+    box-shadow: 0 0 20px  rgba(0, 0, 255);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 275px);
+
+    display: block;
+
+}
+
+
+#entrance_form_id{
+    width: 300px;
+    height: 350px;
+    background-color: #fcfaff ;
+    box-shadow: 0 0 20px  rgba(0, 0, 255);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 175px);
+
+    display: none;
+
+
+}
+.button{
+    height: 45px;
+    background-color: #0D6CF2;
+    color: white;
+    border-radius: 10px;
+    width: 102%;
+    margin-bottom: 13px;
+}
+.entrance_field{
+    margin-bottom: 13px;
+}

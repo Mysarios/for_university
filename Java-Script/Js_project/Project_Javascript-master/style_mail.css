@@ -1,0 +1,136 @@
+body{
+    font-family: "Agency FB", sans-serif;
+    overflow-x: hidden
+}
+
+.new_mail_form{
+
+    height: 100vh;
+    width: 100vh;
+    opacity: 1;
+}
+
+
+.block_mail .Title_block{
+    float: left;
+    top: auto;
+}
+.btn_block_mail{
+    float: right;
+    top: auto;
+}
+.block_mail{
+    width: 70%;
+    background-color: #fcfaff ;
+    box-shadow: 0 0 20px  rgba(0, 0, 255);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 275px);
+
+    display: none;
+}
+
+
+
+.mail_button{
+    display: block;
+    background-color: #146fae;
+
+    position: absolute;
+
+    margin: auto 510px;
+    border-radius: 20px;
+    height: 140px;
+    border: 2px solid green; /* Зеленая граница */
+    color: white; /* White text */
+    padding: 10px 24px; /* Немного отступов */
+    width: 90px; /* Установите ширину, если это необходимо */
+    top: calc(50% - 425px);
+    left: calc(50% - 955px)
+}
+.mail_button .buttons{
+    height: 35px;
+    margin-top:8px;
+    width: 100%;
+    font-size: 11px;
+
+}
+
+
+
+.block_new_message{
+    height: 755px;
+    border: 1px solid green; /* Зеленая граница */
+    border-radius: 18px;
+    color: black; /* White text */
+    padding: 2px 15px; /* Немного отступов */
+    width: 500px; /* Установите ширину, если это необходимо */
+    font-size: 20px;
+    background-color: white;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 375px);
+
+    display: none;
+}
+.block_new_message input{
+    width: 85%;
+    border: none;
+}
+.text_new_message #textarea_new{
+    height: 570px;
+    width: 495px;
+    border-color: #0D6CF2;
+}
+.block_new_message #Send_button{
+    display: block;
+
+    margin: 0 auto;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #0D6CF2;
+    color: #fad9ff;
+}
+
+
+.container_form{
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    height: 850px;
+    width: 600px; /* Установите ширину, если это необходимо */
+    border: 3px solid black; /* Зеленая граница */
+    padding: 10px 2px; /* Немного отступов */
+    overflow-y:scroll;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 425px);
+
+}
+.container_file{
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: #0D6CF2;
+    border-radius: 20px;
+}
+.container_form #textarea_container{
+    height: 30px;
+    width: 515px;
+    border-color: #0D6CF2;
+    border-radius: 10px;
+}
