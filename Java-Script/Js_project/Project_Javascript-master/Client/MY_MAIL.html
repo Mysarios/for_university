@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="style_mail.css" rel="stylesheet" >
+    <title>МОЯ ПОЧТА</title>
+</head>
+<body background = "HEROIC-Email-Security-Background.jpg" >
+
+
+
+<div class="new_mail_form" id="mail_id">
+
+    <!--Верхний прямоугольник -->
+    <div class="top_block_logo" id="top_block_logo_id">
+
+    </div>
+
+    <!--ФОРМА С ОТКРЫТЫМ СООБЩЕНИЕМ -->
+    <div class="open_message" id="open_message_id" >
+        <h5 style="text-align: center;margin-top: 50%">Нет выбранных сообщений</h5>
+    </div>
+    <!--Кнопки меню взаимодействий -->
+    <div class="mail_button">
+        <button class="buttons" id="new_mail_btn">Новое сообщение</button>
+        <button class="buttons" id="Clear_mail_btn">Очистить все</button>
+        <button class="buttons" id="chat_mail_btn">Создать беседу</button>
+        <button class="buttons" id="incoming_message">Входящие</button>
+        <button class="buttons" id="outgoing_message">Отправленные</button>
+    </div>
+
+    <!--Блок отправленных сообщений -->
+    <div class="container_form" id="container_form_id" >
+        <h3 style="text-align: center;margin-top: 2px">Отправленные</h3><hr>
+    </div>
+    <!--Блок входящих сообщений -->
+    <div class="outgoing_container" id="outgoing_container_id" >
+        <h3 style="text-align: center;margin-top: 2px">Входящие</h3><hr>
+    </div>
+
+    <!--Кнопка выхода -->
+    <div class="message_close" id="close_message_form">
+        <button id="close_form_message_btn">X</button>
+    </div>
+
+</div>
+
+
+<!--Форма,открывающаяся при нажатии на кнопку НОВОЕ СООБЩЕНИЕ -->
+<div class="block_new_message" id="block_new_message_id">
+        <h3>Письмо  </h3>
+        <div class="Send_name">
+            <h5>Кому: <input type="text" id="name_new"><hr></h5>
+        </div>
+        <div class="text_new_message">
+            <textarea id="textarea_new"></textarea>
+        </div>
+        <button id="Send_button">Отправить</button>
+    </div>
+
+<script
+    src="Main_mail_script.js">
+</script>
+
+
+</body>
+</html>

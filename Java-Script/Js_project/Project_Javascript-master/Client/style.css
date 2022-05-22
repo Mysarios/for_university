@@ -35,7 +35,7 @@ input{
     margin: 0 auto;
     top: calc(50% - 275px);
 
-    display: block;
+    display: none;
 
 }
 
@@ -55,7 +55,7 @@ input{
     margin: 0 auto;
     top: calc(50% - 175px);
 
-    display: none;
+    display: block;
 
 
 }
@@ -67,6 +67,12 @@ input{
     width: 102%;
     margin-bottom: 13px;
 }
+.button:hover{
+    background-color: #2011f2 ;
+    transition: 1s;
+}
+
 .entrance_field{
     margin-bottom: 13px;
 }
+

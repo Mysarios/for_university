@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e017d819-9c1e-435b-99c5-6713bc156931" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29RZR0ElxfMkEjqXqEFs9lkwtxz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Server/app.js" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\My Files\Git Files\for_university\Java-Script\Js_project\Project_Javascript-master\Ex" />
+      <recent name="F:\My Files\Git Files\for_university\Java-Script\Js_project\Project_Javascript-master\Client" />
+      <recent name="F:\My Files\Git Files\for_university\Java-Script\Js_project\Project_Javascript-master\Client\Log_In" />
+      <recent name="F:\My Files\Git Files\for_university\Java-Script\Js_project\Project_Javascript-master\Client\Main_page" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration name="INDEX.html" type="NodeJSConfigurationType" path-to-node="$APPLICATION_HOME_DIR$/node" nameIsGenerated="true" path-to-js-file="Client/INDEX.html" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" path-to-node="$APPLICATION_HOME_DIR$/node" nameIsGenerated="true" path-to-js-file="Server/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.INDEX.html" />
+      <item itemvalue="Node.js.app.js" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e017d819-9c1e-435b-99c5-6713bc156931" name="Changes" comment="" />
+      <created>1653077846506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653077846506</updated>
+      <workItem from="1653077847816" duration="4349000" />
+      <workItem from="1653082507835" duration="336000" />
+      <workItem from="1653082861780" duration="594000" />
+      <workItem from="1653162581785" duration="2605000" />
+      <workItem from="1653176971427" duration="11600000" />
+      <workItem from="1653190354753" duration="5699000" />
+      <workItem from="1653222800963" duration="2079000" />
+      <workItem from="1653224923376" duration="4521000" />
+      <workItem from="1653230287102" duration="1014000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Client/Main_mail_script.js</url>
+          <line>74</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
